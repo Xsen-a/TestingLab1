@@ -3,9 +3,11 @@ from math import sqrt
 
 def quadratic_equation(a, b, c):
     if type(a) not in [float, int] or type(b) not in [float, int] or type(c) not in [float, int]:
-        return "Неверный тип коэффициентов, необходимы действительные числа"
+        return "Неверный тип коэффициентов, необходимы действительные числа."
     if a == 0:
         return "Это не квадратное уравнение."
+    if b == 0 and c > 0:
+        return "Уравнение имеет комплексные корни."
     d = b**2 - 4 * a * c
     if d < 0:
         return "Действительных корней нет."
