@@ -1,5 +1,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/Xsen-a/TestingLab1/badge.svg?branch=main)](https://coveralls.io/github/Xsen-a/TestingLab1?branch=main)
-[![Quality Gate Status]()]()
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Xsen-a_TestingLab1&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Xsen-a_TestingLab1)
 [![Bugs]()]()
 [![Code Smells]()]()
 
