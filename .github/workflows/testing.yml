@@ -37,9 +37,3 @@ jobs:
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.coveralls_token }}
 
-    - name: Run tests with coverage
-      run: |
-        coveralls
-        coverage report
-        coverage xml
-
