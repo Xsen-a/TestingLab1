@@ -1,4 +1,4 @@
-[![Coverage]()]()
+[![Coverage Status](https://coveralls.io/repos/github/Xsen-a/TestingLab1/badge.svg?branch=main)](https://coveralls.io/github/Xsen-a/TestingLab1?branch=main)
 [![Quality Gate Status]()]()
 [![Bugs]()]()
 [![Code Smells]()]()
