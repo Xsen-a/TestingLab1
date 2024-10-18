@@ -1,7 +1,8 @@
-[![Coverage]()]()
-[![Quality Gate Status]()]()
-[![Bugs]()]()
-[![Code Smells]()]()
+[![Coverage Status](https://coveralls.io/repos/github/Xsen-a/TestingLab1/badge.svg?branch=main)](https://coveralls.io/github/Xsen-a/TestingLab1?branch=main)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Xsen-a_TestingLab1&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Xsen-a_TestingLab1)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Xsen-a_TestingLab1&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Xsen-a_TestingLab1)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Xsen-a_TestingLab1&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Xsen-a_TestingLab1)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Xsen-a_TestingLab1&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Xsen-a_TestingLab1)
 
 
 | Название                          | Описание                                                                                                                                                                                            | Тип теста  | Входные данные                                                                                                                    | Ожидаемый результат                                             |
