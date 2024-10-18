@@ -30,7 +30,6 @@ jobs:
     - name: Run tests
       run: |
         coverage run -m pytest tests_pytest.py -rap  --junitxml coverage.xml
-        coverage xml -i
 
     - name: Upload coverage to Coveralls
       run: |
