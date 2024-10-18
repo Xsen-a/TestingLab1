@@ -34,6 +34,8 @@ jobs:
     - name: Upload coverage to Coveralls
       run: |
         coveralls
+        coverage report
+        coverage xml
       env:
         COVERALLS_REPO_TOKEN: ${{ secrets.coveralls_token }}
 
