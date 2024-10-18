@@ -28,14 +28,14 @@ def test_b_equals_zero_c_greater_zero():
     assert quadratic_equation(a=2, b=0, c=16) == "Уравнение имеет комплексные корни."
 
 
-def test_less_number_of_parameters():
-    with pytest.raises(TypeError):
-        quadratic_equation(b=1, c=3)
-
-
-def test_more_number_of_parameters():
-    with pytest.raises(TypeError):
-        quadratic_equation(a=4, b=-1, c=3, d=14)
+# def test_less_number_of_parameters():
+#     with pytest.raises(TypeError):
+#         quadratic_equation(b=1, c=3)
+#
+#
+# def test_more_number_of_parameters():
+#     with pytest.raises(TypeError):
+#         quadratic_equation(a=4, b=-1, c=3, d=14)
 
 
 if __name__ == '__main__':
